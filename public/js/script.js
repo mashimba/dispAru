@@ -67,28 +67,3 @@ $('#file_input').on('blur', function(){
         }
     })
 })
-
-/*
-confirm delete
- */
-// $('#btn-del').on('click', function(){
-//     var confirmDelete = confirm('Are you sure?');
-//     var id = $(this).attr('data-value');
-
-//     alert(confirmDelete+id);
-//     if (confirmDelete) {
-//         $.ajax({
-//             type: 'POST',
-//             url: './confirmDel',
-//             data: {data:id},
-//             success: function(){
-
-//             }
-//         })
-//     }else{
-//         //window.location("./home");
-//         window.location = "./homew";
-//     }
-    
-//     }
-// })
