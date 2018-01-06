@@ -139,28 +139,6 @@ class PatientsController extends Controller
         
     }
 
-    // public function deletePatient(Request $request)
-    // {
-    //     if($request->ajax){
-    //         $id = $request->id;
-    //         $patient = Patient::find($id);
-    //         $patient->delete();
-            
-    //         return redirect('home')->with('warning', 'Patient '.$patient->first_name.' was deleted');
-    //     }
-        // $patient = Patient::find($id);
-        // $patient->delete();
-
-
-        // return redirect('home')->with('warning', 'Patient '.$patient->first_name.' was deleted');
-    //}
-
-    // public function checks($id)
-    // {
-    //     $confirm = '<script>confirm("are you sure?")</script>';
-    //     return $confirm;
-    // }
-
     public function validateRegNo(Request $request)
     {
         if ($request->ajax()) {
